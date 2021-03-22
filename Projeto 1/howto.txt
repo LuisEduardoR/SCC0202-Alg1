@@ -1,0 +1,11 @@
+As instruções a seguir são referentes à compilação e execução no sistema Linux (o programa foi desenvolvido no Linux Mint 19):
+
+    - Navegue até o diretório desejado (Dinâmica Encadeada ou Estática Sequêncial).
+    - Prossiga de uma das seguintes maneiras:
+        1. Compile com o Makefile (compilado originalmente com GNU Make 4.1):
+            - Execute o comando: make all, para compilar
+            - Use: make run, para executar
+        2. Compile com o gcc (compilado originalmente com gcc 7.3.0):
+            - Navegue para /src
+            - Execute o comando: gcc brinquedo.h lista.h pilha.h fila.h main.c brinquedo.c lista.c pilha.c fila.c -o nome_de_saida, para compilar
+            - Use: ./nome_de_saida, para executar

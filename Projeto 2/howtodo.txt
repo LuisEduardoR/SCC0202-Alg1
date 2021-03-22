@@ -1,0 +1,14 @@
+Para compilar o programa deve-se primeiro navegar dentro do terminal até a pasta que contém
+o diretório "/src", o qual contém os arquivos do código fonte. Muito possívelmente a mesma
+pasta onde esse arquivo se encontra.
+
+Em seguida deve-se executar o comando:
+gcc ./src/main.c ./src/bb/bb.c ./src/lo/listaord.c ./src/los/listaord_sentinela.c 
+./src/abb/abb.c ./src/avl/avl.c ./src/lfreq/lfreq.c -o NOME_DO_EXECUTAVEL
+
+Para executar use:
+./NOME_DO_EXECUTAVEL
+
+OBS: Esses comando devêm funcionar perfeitamente em Linux e Mac, mas no Windows
+podem ocorrer variações. Esse processo foi realizado com sucesso no Linux Mint 19
+utilizando o gcc 7.3.0.
